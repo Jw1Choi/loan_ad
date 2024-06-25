@@ -167,6 +167,52 @@
                 </div>
             </div>
 
+            <div class="main ani01" style="padding-top:50px;">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col  col-12" style="text-align:-webkit-center;">
+                            <h4>DSR 제한 없이!<br></h4><br>
+                            <h2>
+                                최대 LTV 90%까지 가능!
+                            </h2>
+                           
+                        </div>
+                        <div class="col  col-12 px-0">
+                            <figure>
+                                <div class="graph4">
+                                    <div class="bar">
+                                        <div class="box">
+                                            <p>거절</p>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                    <p class="tit">ㄱ 금융사</p>
+                                </div>
+                                <div class="graph5">
+                                    <div class="bar">
+                                        <div class="box">
+                                            <p>70%</p>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                    <p class="tit">ㄴ 금융사</p>
+                                </div>
+                                <div class="graph6">
+                                    <div class="bar txtAni">
+                                        <div class="box">
+                                            <p>90%</p>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                    <p class="tit">ㄷ 금융사</p>
+                                </div>
+                                <br><span style="font-size:12px;">* 표시 숫자는 이해를 위한 예시입니다.</span>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="main ani01" style="padding-top:50px;">
                 <div class="container">
@@ -552,7 +598,7 @@
             <div class="wrap" style="padding-bottom:0px;">
                 <!-- <div class="subtit wow fadeInUp"></div> -->
                 <!-- I | A,S : PPL 을 활용하여 고객의 마음을 공감하고 -->
-                <h3 class="wow fadeInUp" style="line-height:140%;">신용 영향 없으니<br>편하게 조회해주세요.</span></h3>
+                <h3 class="wow fadeInUp" style="line-height:140%;">신용 영향 없으니<br>걱정 부담 없이<br>편하게 조회해주세요.</span></h3>
                 <div style="text-align:-webkit-center;">
                 <img src="./img/001.png" style="width:100%;max-width:600px;padding:40px 0 50px;">
                 
@@ -564,12 +610,67 @@
             <div class="wrap">
                 <!-- <div class="subtit wow fadeInUp"></div> -->
                 <!-- I | A,S : PPL 을 활용하여 고객의 마음을 공감하고 -->
-                <h3 class="wow fadeInUp" style="line-height:140%;">무료로 부담없이<br><span>승인되는 상품</span>과 함께<br><span>최적의 금리와 한도</span><br>빠르게 찾도록 도와드리겠습니다.<br></h3>
+                <h3 class="wow fadeInUp" style="line-height:140%;">무료로 여러분에게 맞는<br><span>상품</span>과 함께<br><span>최적의 금리와 한도를</span><br>빠르게 찾아 드리겠습니다.<br></h3>
                
             </div>
         </div>
 
-       
+        <div class="contents sec01" style="margin-bottom:0px;border-bottom:0px;">
+            <div class="container m-center">
+                <div class="row d-flex align-items-center">
+                    <div class="col col-md-6 col-12">
+                       
+                        <h2>
+                            여러분의 대출 한도는?
+                        </h2>
+                     
+                    </div>
+                    <div class="col col-md-6 col-12 p-0">
+                        <div class="count">
+                            <div class="row pb-2">
+                                <div class="col-4 text-left align-bottom">
+                                    <p>예상 한도</p>
+                                </div>
+                                <div class="col-8 text-right">
+                                    <p>
+                                        <span class="counter" style="color:#2196F3;bottom:0px;">?</span>
+                                        만원</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row py-2">
+                                <div class="col-4 text-left">
+                                    <p>예상 금리</p>
+                                </div>
+                                <div class="col-8 text-right">
+                                    <p>
+                                        <span class="counter" style="color:#2196F3;bottom:0px;">? </span>
+            
+                                         %</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row pt-2">
+                                <div class="col-4 text-left">
+                                    <p>예상 월 이자<br>절약금액</p>
+                                </div>
+                                <div class="col-8 text-right">
+                                    <p>
+                                        <span class="txtAni"  style="color:#2196F3;bottom:0px;">?</span>
+                                        만원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 pb-0">
+                        <!-- <p class="text-right small" style="line-height: 1.3em;color: #9b9b9b;">
+                            *최저 연 %기준<br>
+                            ()
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+            </div>
 
         <div id="form"></div>
 
@@ -781,7 +882,7 @@
             //animation
             new WOW().init();
 
-
+         
             // sc1_swiper
             var swiper1 = new Swiper('.swiper-container.sc1_swiper', {
                 slidesPerView: 1,
@@ -858,6 +959,7 @@
                 $('.conWrap .con').eq(btnNum).addClass('on').siblings().removeClass('on')
             })
 
+            $('.counter').counterUp({delay: 10, time: 1000});
 
             // footer scroll
             $("#scroller").simplyScroll({
@@ -871,6 +973,7 @@
 
 
 
+ 
 
 
     </script>
